@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+}
+.font{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    position: absolute;
+    left: 700px;
+    top: 35px;
+}
+.Calculator {
+    top: 115px;
+    /* background-color: rosybrown; */
+    position: absolute;
+    left: 650px;
+    border: 1px solid black;
+    width: 256px;
+    height: 419px;
+}
+.screen{
+    background: whitesmoke;
+    text-align: right;
+    padding: 10px;
+    /* font-size: 20px;
+    font-weight: bolder; */
+    margin: 2px;
+    border-radius: 4px;
+}
+.input, .output{
+    padding: 7px 2px;
+}
+.input-buttons{
+    display: flex;
+}
+.Normal-Size{
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: #8b9baa;
+}
+.Large-Size{
+    width: 124px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color:  #8b9baa;
+}
+#Zero{
+    position: relative;
+    right: 64px;
+    position: relative;
+    top: 256px;
+}
+#EqualsTo{
+    position: relative;
+    right: 223.5px;
+    transform: rotate(90deg);
+    top: 224px;
+}
+.Third-Row, .Fourth-Row, .Fifth-Row{
+    position: relative;
+    right: 128px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Calculator</h1>
+    </div>
+    <div class="Calculator">
+        <div class="screen font">
+            <div class="input" id="input">
+                0
+            </div>
+            <div class="output" id="output">
+                0
+            </div>
+        </div>
+        <div class="input-buttons">
+
+            <div class="First-Row">
+                <div id="AllClear">
+                    <button class="Normal-Size font" onclick="AC()">AC</button>
+                </div>
+                <div id="7">
+                    <button class="Normal-Size font" onclick="Click1(7)">7</button>
+                </div>
+                <div id="4">
+                    <button class="Normal-Size font" onclick="Click1(4)">4</button>
+                </div>
+                <div id="1">
+                    <button class="Normal-Size font" onclick="Click1(1)">1</button>
+                </div>
+            </div>
+
+            <div class="Second-Row">
+                <div id="Zero">
+                    <button class="Large-Size font" onclick="Click1(0)">0</button>
+                </div>
+            </div>
+
+            <div class="Third-Row">
+                <div id="Clear">
+                    <button class="Normal-Size font" onclick="Clear()">C</button>
+                </div>
+                <div id="8">
+                    <button class="Normal-Size font" onclick="Click1(8)">8</button>
+                </div>
+                <div id="5">
+                    <button class="Normal-Size font" onclick="Click1(5)">5</button>
+                </div>
+                <div id="2">
+                    <button class="Normal-Size font" onclick="Click1(2)">2</button>
+                </div>
+            </div>
+
+            <div class="Fourth-Row">
+                <div id="/">
+                    <button class="Normal-Size font" onclick="Divide()">/</button>
+                </div>
+                <div id="9">
+                    <button class="Normal-Size font" onclick="Click1(9)">9</button>
+                </div>
+                <div id="6">
+                    <button class="Normal-Size font" onclick="Click1(6)">6</button>
+                </div>
+                <div id="3">
+                    <button class="Normal-Size font" onclick="Click1(3)">3</button>
+                </div>
+                <div id="Decimal">
+                    <button class="Normal-Size font" onclick="Decimal()">.</button>
+                </div>
+            </div>
+
+            <div class="Fifth-Row">
+                <div id="x">
+                    <button class="Normal-Size font" onclick="Multiply()">x</button>
+                </div>
+                <div id="-">
+                    <button class="Normal-Size font" onclick="Sub()">-</button>
+                </div>
+                <div id="+">
+                    <button class="Normal-Size font" onclick="Add()">+</button>
+                </div>
+            </div>
+
+            <div class="Sixth-Row">
+                <div id="EqualsTo">
+                    <button class="Large-Size font" onclick="Result()">||</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
